@@ -252,6 +252,16 @@ def main():
         station = input('\nWould you like to see the station stats? Enter yes or no.\n')
         if station.lower() == 'yes':
             station_stats(df)
+
+        #Ask user if they want to view records of station statistics
+        see_more_5 = input('\nWould you like to see the first 5 rows of station statistics data? Enter yes or no.\n')
+        if see_more.lower() == 'yes':
+           print(df['Station'].head(5))
+        
+        see_more_10 = input('\nWould you like to see another 5 rows of station statistics data? Enter yes or no.\n')
+        if see_more.lower() == 'yes':
+           print(df['Station'].head(10))
+        
         #option to see more stats or not  
         duration = input('\nWould you like to see the trip duration stats? Enter yes or no.\n')
         if duration.lower() == 'yes':
