@@ -16,6 +16,7 @@ THe folloing file is the only script file included:
 * bikeshare.py
 
 ### UX
+The user experience should be a simple as possible as many people encountering the command line for the first time find it intimidating to navigate. This application accounts for this issue by leading the user through the script with simple yes or no responses required.
 
 ### Credits
 The template code was provided by udacity
