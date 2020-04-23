@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+23/04/2020
 
-### Project Title
-Replace the Project Title
+### Bike share
 
 ### Description
-Describe what your project is about and what it does
+This project is part of Udacity's programming for datascience nanodegree.
 
 ### Files used
-Include the files used
+The following files contain the bikeshare data:
+* new_york_city.csv
+* chicago.csv
+* washington.csv
+
+THe folloing file is the only script file included:
+* bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The template code was provided by udacity
 
